@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/imf4isal/vuesand/compare/v1.1.0...v2.0.0) (2024-01-01)
+
+
+### ⚠ BREAKING CHANGES
+
+* add increment score functionality
+
+### Features
+
+* add increment score functionality ([34a5b73](https://github.com/imf4isal/vuesand/commit/34a5b737018b71ea696fe9fb6aaa6523112bc7ac))
+
 ## 1.1.0 (2024-01-01)
 
 
