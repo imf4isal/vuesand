@@ -1,7 +1,15 @@
 {
-  "name": "vue sandbox",
-  "version": "1.0.0",
+  "name": "vue-sandbox",
+  "version": "1.1.0",
+  "description": "Playground for vue js syntax.",
   "main": "index.js",
-  "license": "MIT",
-  "scripts": {}
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "standard-version"
+  },
+  "author": "Faisal",
+  "license": "ISC",
+  "devDependencies": {
+    "standard-version": "^9.5.0"
+  }
 }
