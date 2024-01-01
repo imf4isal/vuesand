@@ -8,6 +8,20 @@
   <body>
     <h2>Vue JS Playground</h2>
 
+    <div id="app">{{message}}</div>
+
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script>
+      const { createApp } = Vue;
+
+      const app = createApp({
+        data() {
+          return {
+            message: 'Hello.',
+          };
+        },
+      });
+      app.mount('#app');
+    </script>
   </body>
 </html>
