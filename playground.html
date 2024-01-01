@@ -12,7 +12,8 @@
       {{message}}
 
       <p v-if="score < 5">There is no enough score to show.</p>
-      <p v-else>{{score}}</p>
+      <p v-else>score: {{score}}</p>
+      <button @click="incrementScore">increment score</button>
     </div>
 
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
@@ -26,7 +27,13 @@
             score: 8,
           };
         },
+        methods: {
+          incrementScore() {
+            this.score++;
+          },
+        },
       });
+
       app.mount('#app');
     </script>
   </body>
